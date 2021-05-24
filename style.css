@@ -1,0 +1,78 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#conteiner{
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+}
+
+#conteiner-resultado{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botoes{
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    color: white;
+    box-shadow: grey 0px 1px 3px 0px;
+    border-radius: 10px;
+    border: none;
+}
+
+#btnIniciar{
+    background-color: rgb(57, 230, 4);
+}
+
+#btnIniciar:hover{
+    background-color: rgb(57, 192, 4);
+    transition: .5s;
+}
+
+#btnZerar{
+    background-color: rgb(244, 167, 112);
+} 
+
+#btnZerar:hover{
+    background-color: rgb(222, 167, 112);
+    transition: .5s;
+}
+
+#btnMarcar{
+    background-color: rgb(73, 224, 236);
+}
+
+#btnMarcar:hover{
+    background-color: rgb(73, 187, 236);
+    transition: .5s;
+}
+
+#conteiner-resultado{
+    margin-top: 30px;
+    color: whitesmoke;
+    display: flex;
+    border-radius: 30px;
+    box-shadow: grey 3px 3px 10px 0px;
+    margin-left: 420px;
+    width: 500px;
+    background-color: rgb(169, 144, 244);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#redeSociais{
+    margin: 10px;
+}
